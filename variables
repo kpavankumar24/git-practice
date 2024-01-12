@@ -1,0 +1,6 @@
+#!/bin/bash 
+
+myclg="iup"
+echo " we are students of  $myclg "
+
+echo " byramjee is the best prof in $myclg "
