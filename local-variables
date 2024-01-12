@@ -1,0 +1,9 @@
+#!/bin/bash
+
+int=\$10
+echo "price of a product is $int"
+
+int=\$10
+echo "price of a product is $int"
+
+echo " even the variables are same in shell it can overwrite becoz it is executed one after other "
