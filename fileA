@@ -1,0 +1,25 @@
+#!/bin/bash
+a=4
+b=6
+
+if [ $a -eq $b ];then
+   echo " $a and $b : equal "
+else
+   echo " not equal "
+fi
+if [ $a -ne $b ];then
+   echo " $a and $b : not equal "
+else
+   echo " equal "
+  
+fi
+if [ $a -gt $b ];then
+   echo " $a is $b :greater "
+else
+   echo " lesser "
+fi
+if [ $a -lt $b ];then
+   echo " $a is $b :lesser "
+else
+   echo " greater "
+fi
