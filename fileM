@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#project on grades
+marks=96
+
+if [ $marks -ge 90 ];then
+   echo " your grade is A "
+else
+   echo " not A "
+fi
+
