@@ -1,0 +1,8 @@
+ #!/bin/bash
+ 
+ #local variables
+ myapt="aspen"
+ echo " im staying in $myapt "
+
+
+

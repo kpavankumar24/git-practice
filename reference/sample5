@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#strings
+
+p="pavan"
+q="bhavya"
+if [ $p = $q ];then
+   echo " $p and $q are equal "
+else
+   echo " $p and $q are notequal "
+fi

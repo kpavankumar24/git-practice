@@ -1,0 +1,21 @@
+#!/bin/bash
+#operators
+x=6
+y=2
+
+add=`expr $x + $y`
+echo " addition of $x + $y = $add "
+
+#average
+avg=`expr $add / 2`
+echo " average of $x and $y is : $avg "
+
+#modules
+mod=`expr $x % $y`
+echo " modules of $x % $y : $mod "
+
+if [ $mod -eq 0 ];then
+   echo " it is even "
+else
+   echo " it is odd "
+fi

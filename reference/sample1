@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#envi_variables
+
+export a=10
+export b=15
+if [ $a -gt $b ];then
+   echo " $a is greater than $b "
+else
+   echo " $a is lesser than $b"
+
+fi
+echo " now calling child "
+./sample3
