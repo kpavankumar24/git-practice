@@ -1,6 +1,8 @@
 #!/bin/bash
 var1=2
 var2=4
-
+set -vx
 add=`expr $var1 + $var2`
 echo "addition of 2 nos : $add"
+sub=`expr $var1 - $var2`
+echo "subraction of 2 nos : $sub"
